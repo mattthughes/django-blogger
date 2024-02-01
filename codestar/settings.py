@@ -90,6 +90,11 @@ DATABASES = {
     'default': dj_database_url.config(),
 }
 
+CSRF_TRUSTED_ORIGINS = [
+    "http://8000-mattthughes-djangoblogg-2asbxyqbtwb.ws-eu107.gitpod.io",
+    "https://django-blog-mh-01db534b7b28.herokuapp.com/"
+]
+
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
 
